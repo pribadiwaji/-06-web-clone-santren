@@ -1,0 +1,87 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  width: auto;
+  /* padding: 20px; */
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-body {
+    background-color: #FAFAFA;
+}
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+
+.Divider-body {
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(231, 231, 231);
+
+}
+
+.SantrenKilat-body {
+  border-top: 1px solid rgb(231, 231, 231);
+
+}
+
+.Mondok-body {
+  border-top: 1px solid rgb(231, 231, 231);
+
+}
+
+.Sponsor-body {
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.Brand{
+  color: greenyellow;
+}
+
+.Sifat-body{
+  border-top: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  border-left: 1px solid rgb(231, 231, 231);
+  border-right: 1px solid rgb(231, 231, 231);
+}
+
+.Warna-biru{
+  background-color: #0bc72a;
+  color: white;
+}
+
+.Warna-putih{
+  background-color: white;
+}
+
+
+// WEBPACK FOOTER //
+// ./src/App.css

@@ -1,0 +1,82 @@
+.right{
+    float: right;
+}
+:left{
+    float: left;
+}
+.card-shadow{
+    /* width: 25 rem; */
+    box-shadow: 0 10px 10px rgba(0,0,0,0.23);
+}
+.card-shadow:hover{
+    /* width: 15 rem; */
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(240, 236, 26, 0.562);
+}
+
+.card-blank{
+    min-height: 250px;
+    border:1px solid rgb(230, 228, 228);
+}
+.card-blank:hover{
+    animation-name: background-color;
+    animation-duration: 1000ms;
+    /* add your code below this line */
+    animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: rgb(230, 111, 111);
+    }
+  }
+
+.jumbotron {
+    color: #fff;
+    background-size: cover;
+    min-height: 340px;
+}
+
+.jumbotron-home {
+    background: url(../images/home_harvest_blur.jpg);
+}
+
+.jumbotron-contactus {
+    background: url(../images/contact_us.jpg);
+}
+
+.jumbotron-contactus-bottom{
+    padding: 5px 0px 5px 0px;
+}
+.text-center{
+    text-align: center;
+}
+.center {
+    margin: auto;
+    width: 13%;
+}
+.card-img-top{
+    min-height: 350px;
+}
+.carousel-inner,.carousel,.item,.container,.fill {
+    height:100%;
+    width:100%;
+    background-position:center center;
+  }
+
+#about_1{
+    background: url(../images/about_us_1.jpg);
+}
+#about_2{
+    background: url(../images/about_us_2.jpg);
+}
+#about_3{
+    background: url(../images/about_us_3.jpg);
+}
+
+form {
+    /* display: block;
+    margin-top: 0em; */
+    width: 360px;
+    height: 378px;
+}
